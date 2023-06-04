@@ -23,3 +23,14 @@
     padding: 30px;
     box-sizing: border-box;
 }
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 50%;
+}
