@@ -1,0 +1,16 @@
+.todolist {
+    padding: 30px 80px;
+    max-width: 400px   ;
+    margin: auto;
+    width: 100%;
+    min-height: 600px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 30px;
+    position: relative;
+}
+
+.todoInput {
+    position: absolute;
+    bottom: 30px;
+}
