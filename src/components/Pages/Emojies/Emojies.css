@@ -1,0 +1,22 @@
+.aside {
+    max-width: 1400px;
+    width: 100%;
+    min-height: 600px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin: 20px auto;
+}
+
+.aside ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 50%;
+}

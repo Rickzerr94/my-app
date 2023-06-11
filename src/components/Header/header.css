@@ -1,0 +1,29 @@
+header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 28px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(120,120,179,1) 25%, rgba(229,253,255,0.6755077030812324) 95%);
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    border: solid 1px black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: all 0.1s ease-in;
+}
+
+header a:hover {
+    color: white;
+    background-color: black;
+}

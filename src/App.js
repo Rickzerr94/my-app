@@ -1,7 +1,11 @@
+import { Routes, Route } from "react-router-dom";
+
 import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
 import Container from "./components/Container/Container"
-import TodoList from "./components/Todo-list";
+import TodoList from "./components/Pages/Todo-list";
+import Emojies from "./components/Pages/Emojies/Emojies";
+import UsersList from "./components/Pages/UsersList/UsersList";
 
 
 const App = () => {
@@ -13,7 +17,9 @@ const App = () => {
       }}>
         <Header />
         <Container />
-        <TodoList />
+        {/*<UsersList />*/}
+        {/*<TodoList />*/}
+        {/*<Emojies />*/}
         <Footer />
       </div>
   );

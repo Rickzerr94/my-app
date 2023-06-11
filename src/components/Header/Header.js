@@ -1,13 +1,17 @@
+import { Link } from "react-router-dom";
+
+import './header.css'
+
 const Header = () => {
-    return <div style={{
-        height: 80,
-        width: '100%',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 28,
-        background: 'linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(120,120,179,1) 25%, rgba(229,253,255,0.6755077030812324) 95%)',
-    }}>Header</div>
+    return <header>
+        <h2>My junk</h2>
+        <ul>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="todolist">To-do list</Link></li>
+            <li><Link to="emojies">Emogies</Link></li>
+            <li><Link to="userslist">Users list</Link></li>
+        </ul>
+    </header>
 };
 
 export default Header

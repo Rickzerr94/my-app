@@ -1,7 +1,7 @@
 .todolist {
     padding: 30px 80px;
-    max-width: 400px   ;
-    margin: auto;
+    max-width: 1400px;
+    margin: 20px auto;
     width: 100%;
     min-height: 600px;
     background-color: rgba(0, 0, 0, 0.1);
@@ -13,4 +13,7 @@
 .todoInput {
     position: absolute;
     bottom: 30px;
+}
+.todolist ul {
+    list-style: upper-roman;
 }
