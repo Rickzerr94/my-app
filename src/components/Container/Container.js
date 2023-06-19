@@ -7,6 +7,7 @@ import Home from "../Pages/Home/Home";
 
 import './container.css'
 import Userlist2 from "../Pages/UserList2/Userlist2";
+import Contacts from "../Pages/Contact/Contacts";
 
 
 
@@ -19,6 +20,7 @@ const Container = () => {
             <Route path="userslist" element={<UsersList/>}/>
             <Route path="todolist" element={<TodoList/>}/>
             <Route path="userlist2" element={<Userlist2/>}/>
+            <Route path="contacts" element={<Contacts/>}/>
         </Routes>
     </div>
 }
