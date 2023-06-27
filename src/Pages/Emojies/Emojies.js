@@ -1,7 +1,7 @@
 import React from "react";
 
 import Emoji from "./Images/smile2.png";
-import Counter from "../../Counter/Counter";
+import Counter from "../../components/Counter/Counter";
 import Emoji2 from "./Images/smile3.png";
 import Emoji3 from "./Images/shock.png";
 import Emoji4 from "./Images/poop.png";
