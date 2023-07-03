@@ -1,0 +1,9 @@
+.logHeader {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 28px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(120,120,179,1) 25%, rgba(229,253,255,0.6755077030812324) 95%);
+}

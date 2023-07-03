@@ -15,10 +15,10 @@ const App = () => {
       <AuthProvider>
           {/*<Router>*/}
               <Routes>
-                  <Route path="/login" component={LoginForm} />
-                  <Route path="/register" component={RegistrationForm} />
-                  <Route exact path='/' component={<PrivateRoute/>}>
-                      <Route exact path='/' component={<Home/>}/>
+                  <Route path="/login" element={<LoginForm/>} />
+                  <Route path="/register" element={<RegistrationForm/>} />
+                  <Route exact path='/' element={<PrivateRoute/>}>
+                      <Route exact path='*' element={<Home/>}/>
                   </Route>
               </Routes>
           {/*</Router>*/}

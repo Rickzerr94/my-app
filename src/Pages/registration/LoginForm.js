@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { AuthContext } from '../../AuthContext';
+import './LogStyle.css'
 
 const LoginForm = () => {
     const { dispatch } = useContext(AuthContext);
@@ -29,7 +30,9 @@ const LoginForm = () => {
 
     return (
         <div>
-            <h2>Login</h2>
+            <div className='logHeader'>
+                <h2>Login</h2>
+            </div>
             <Formik
                 initialValues={initialValues}
                 validationSchema={validationSchema}
