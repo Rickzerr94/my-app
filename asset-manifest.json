@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.9afab7c2.css",
-    "main.js": "/react-gh-pages/static/js/main.e7af21e3.js",
-    "static/media/smile3.png": "/react-gh-pages/static/media/smile3.ae7a7b0114c79c9ad4b4.png",
-    "static/media/smile2.png": "/react-gh-pages/static/media/smile2.1e4c866ac062df5cf421.png",
-    "static/media/shock.png": "/react-gh-pages/static/media/shock.6761de38488203e5c5f3.png",
-    "static/media/sunglass.png": "/react-gh-pages/static/media/sunglass.226984e335e4b262340a.png",
-    "static/media/poop.png": "/react-gh-pages/static/media/poop.bf383437836e28d0e4a5.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.9afab7c2.css.map": "/react-gh-pages/static/css/main.9afab7c2.css.map",
-    "main.e7af21e3.js.map": "/react-gh-pages/static/js/main.e7af21e3.js.map"
+    "main.css": "/my-app/static/css/main.9afab7c2.css",
+    "main.js": "/my-app/static/js/main.afd0baf1.js",
+    "static/media/smile3.png": "/my-app/static/media/smile3.ae7a7b0114c79c9ad4b4.png",
+    "static/media/smile2.png": "/my-app/static/media/smile2.1e4c866ac062df5cf421.png",
+    "static/media/shock.png": "/my-app/static/media/shock.6761de38488203e5c5f3.png",
+    "static/media/sunglass.png": "/my-app/static/media/sunglass.226984e335e4b262340a.png",
+    "static/media/poop.png": "/my-app/static/media/poop.bf383437836e28d0e4a5.png",
+    "index.html": "/my-app/index.html",
+    "main.9afab7c2.css.map": "/my-app/static/css/main.9afab7c2.css.map",
+    "main.afd0baf1.js.map": "/my-app/static/js/main.afd0baf1.js.map"
   },
   "entrypoints": [
     "static/css/main.9afab7c2.css",
-    "static/js/main.e7af21e3.js"
+    "static/js/main.afd0baf1.js"
   ]
 }
